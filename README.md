@@ -9,8 +9,12 @@ The practical master class has been done by Francisco J. Baldán and Manuel J. P
 
 Index of measures:
 
-[MIN](# MIN of a column)
-[]
+- [MIN](#MIN-of-a-column)
+- [MAX](#MAX-of-a-column)
+- [AVG](#AVG-of-a-column)
+- [STD DEV](#STD-DEV-of-a-column)
+
+
 
 
 ## MIN of a column
@@ -32,7 +36,7 @@ hadoop jar min.jar oldapi.Min ./sample1.txt ./min/output_2/
 ```
 
 
-## MAX of a column:
+## MAX of a column
 
 Code: [HADOOP MAX](./hadoop-max/)
 
