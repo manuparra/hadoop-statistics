@@ -9,10 +9,10 @@ The practical master class has been done by Francisco J. Baldán and Manuel J. P
 
 Index of measures:
 
-- [MIN](#MIN-of-a-column)
-- [MAX](#MAX-of-a-column)
-- [AVG](#AVG-of-a-column)
-- [STD DEV](#STD-DEV-of-a-column)
+- [MIN](#min-of-a-column)
+- [MAX](#max-of-a-column)
+- [AVG](#avg-of-a-column)
+- [STD DEV](#std-dev-of-a-column)
 
 
 
