@@ -9,7 +9,7 @@ The practical master class has been done by Francisco J. Baldán and Manuel J. P
 
 Index of measures:
 
-[MIN](## MIN of a column)
+[MIN](# MIN of a column)
 []
 
 
