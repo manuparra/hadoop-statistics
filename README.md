@@ -1,12 +1,21 @@
-# Basic statistical measures of massive datasets with HADOOP
+# Basic statistical measures of massive datasets with APACHE HADOOP
 
-Calculate MIN, MAX, AVG and STDDEV of one column on big data datasets with these Hadoop Applications 
+Calculate MIN, MAX, AVG and STDDEV of one column on big data datasets with these Hadoop Applications.
+
+These applications are the resolution of the exercises for the practices of the course of BigData within the Master in Science of Data of the University of Granada (March 2016). 
+
+The practical master class has been done by Francisco J. Baldán and Manuel J. Parra.
 
 
+Index of measures:
 
-## MIN of a column:
+[MIN](## MIN of a column)
+[]
 
-Code: []
+
+## MIN of a column
+
+Code: [HADOOP MIN](./hadoop-min/)
 
 ### How to compile and execute:
 
@@ -18,14 +27,14 @@ javac -cp /usr/lib/hadoop/*:/usr/lib/hadoop-0.20-mapreduce/* -d min_classes Min.
 
 jar -cvf min.jar -C min_classes / .
 
-# Execute
+# Execute 
 hadoop jar min.jar oldapi.Min ./sample1.txt ./min/output_2/
 ```
 
 
 ## MAX of a column:
 
-Code: []
+Code: [HADOOP MAX](./hadoop-max/)
 
 ### How to compile and execute:
 
@@ -43,7 +52,7 @@ hadoop jar max.jar oldapi.Max ./sample1.txt ./min/output_2/
 
 ## AVG of a column:
 
-Code: []
+Code: [HADOOP AVG](./hadoop-avg/)
 
 ### How to compile and execute:
 
@@ -63,7 +72,7 @@ hadoop jar avg.jar oldapi.Avg ./sample1.txt ./avg/output_2/
 
 ## STD DEV of a column:
 
-Code: []
+Code: [HADOOP STD DEV](./hadoop-stddev/)
 
 ### How to compile and execute:
 
